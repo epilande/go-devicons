@@ -6,6 +6,10 @@
   <strong>A Go library for mapping files/folders to Nerd Font icons and colors.</strong>
 </p>
 
+<div align="center">
+ <img width="350" alt="Gopher with icons" src="https://github.com/user-attachments/assets/34791dcb-13e1-43b7-b0e1-15be7b914b74" />
+</div>
+
 ## ❓ Why?
 
 When building command-line tools or file explorers in Go, displaying appropriate icons can enhance the user experience, providing quick visual cues about file types. `go-devicons` simplifies this by providing a straightforward way to map Nerd Font icon and corresponding color for files and directories, leveraging the comprehensive icon mappings from [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) project.
