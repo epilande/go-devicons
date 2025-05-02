@@ -8,7 +8,7 @@ type Style struct {
 }
 
 var (
-	DefaultStyle = Style{Icon: "", Color: "#ABB2BF"}
+	DefaultStyle = Style{Icon: "", Color: "#ABB2BF"}
 	DirStyle     = Style{Icon: "", Color: "#61AFEF"}
 	SymlinkStyle = Style{Icon: "", Color: "#56B6C2"}
 )
