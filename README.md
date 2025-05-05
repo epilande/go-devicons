@@ -14,7 +14,7 @@
 
 When building command-line tools or file explorers in Go, displaying appropriate icons can enhance the user experience, providing quick visual cues about file types. `go-devicons` simplifies this by providing a straightforward way to map Nerd Font icon and corresponding color for files and directories, leveraging the comprehensive icon mappings from [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) project.
 
-This library is useful for enhancing terminal applications, file explorers, or any Go program that needs to display visually distinct file representations.
+This library is useful for enhancing terminal applications, file explorers, or any Go program that needs to display visually distinct file representations. See [codegrab](https://github.com/epilande/codegrab) for an example usage.
 
 ## 📦 Installation
 
@@ -87,6 +87,10 @@ func main() {
 
 > [!TIP]
 > The `Color` field in the `Style` struct is a hex string (e.g., `#RRGGBB`). You can use libraries like `lipgloss` or your own terminal coloring methods to apply it.
+
+### Demo
+
+<img width="1000" alt="example demo" src="https://github.com/user-attachments/assets/218c4acb-ed72-41f3-bd47-14f0c844d5dd" />
 
 ## 🔌 API Reference
 
